@@ -53,5 +53,44 @@
         height: 320px;
         max-width: 280px;
     }
+
+    .about-image {
+        max-width: 300px;
+        height: 350px;
+    }
 }
 
+
+.about {
+    background: #080808;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 350px;
+    height: 390px;
+    object-fit: cover;
+    border: 1px solid rgba(255,255,255,0.15);
+    box-shadow: 0 10px 35px rgba(0,0,0,0.3);
+}
+
+.about-card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.1);
+    border-radius: 15px;
+    transition: 0.3s ease;
+}
+
+.about-card:hover {
+    background: rgba(255,255,255,0.1);
+    transform: translateY(-4px);
+}
+
+.about-card i {
+    font-size: 25px;
+    color: white;
+}
