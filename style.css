@@ -42,6 +42,11 @@
         padding-top: 100px;
         padding-bottom: 50px;
     }
+
+    .skills {
+        min-height: 100vh;
+        padding: 80px 0 40px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -94,3 +99,41 @@
     font-size: 25px;
     color: white;
 }
+
+
+.skills {
+    background: #080808;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.skills-card {
+    background-color: #181818;
+    border: 1px solid #292929;
+    border-radius: 15px;
+}
+
+.skill-item {
+    margin-bottom: 15px;
+}
+
+.skills-card .progress {
+    height: px;
+    background-color: #333333;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skills-card .progress-bar {
+    border-radius: 10px;
+}
+
+.language-item {
+    background-color: #222222;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    padding: 10px 12px;
+}
+
