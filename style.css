@@ -6,12 +6,36 @@
     border-radius: 50px;
 
     padding: 6px 12px;
-    max-width: 400px;
+    max-width: 409px;
     margin: 20px auto;
 
     box-shadow:
         0 10px 30px rgba(0, 0, 0, 0.25),
         inset 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+.navbar-wrapper {
+    position: relative;
+}
+
+.translate-btn {
+    position: fixed;
+    top: 27px;
+    left: calc(50% + 215px);
+
+    padding: 8px 12px;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    background: rgba(30, 30, 30, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(30px);
+    transition: 0.3s;
+    z-index: 1040;
+}
+
+.translate-btn:hover {
+    transform: translateY(-3px);
 }
 
 .home {
@@ -258,4 +282,17 @@
 
 .footer {
     background-color: #000000;
+}
+
+.translate-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 12px;
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    transition: 0.3s ease;
 }
