@@ -27,7 +27,6 @@
     border-radius: 50px;
     color: white;
     text-decoration: none;
-    background: rgba(30, 30, 30, 0.7);
     border: 1px solid rgba(255, 255, 255, 0.18);
     backdrop-filter: blur(30px);
     transition: 0.3s;
@@ -60,53 +59,6 @@
 .home .btn:hover {
     transform: translateY(-3px);
 }
-
-@media (max-width: 991px) {
-    .home {
-        padding-top: 100px;
-        padding-bottom: 50px;
-    }
-
-    .skills {
-        min-height: 100vh;
-        padding: 80px 0 40px;
-    }
-
-    .hobby {
-        padding: 80px 0 40px;
-    }
-
-    .contact {
-        min-height: 100vh;
-        height: auto;
-        padding: 40px 0;
-    }
-
-    .contact-card {
-        padding: 18px !important;
-    }
-
-    .contact textarea {
-        height: 110px;
-    }
-}
-
-@media (max-width: 576px) {
-    .home h1 {
-        font-size: 2.5rem;
-    }
-
-    .home-image {
-        height: 320px;
-        max-width: 280px;
-    }
-
-    .about-image {
-        max-width: 300px;
-        height: 350px;
-    }
-}
-
 
 .about {
     background: #080808;
@@ -182,7 +134,7 @@
 
 
 .hobby {
-    background-color: #000000;
+    background: #080808;
     min-height: 100vh;
     display: flex;
     align-items: center;
@@ -219,7 +171,7 @@
 }
 
 .contact {
-    background-color: #000000;
+    background: #080808;
     min-height: calc(100vh);
     padding: 20px 0;
     display: flex;
@@ -281,7 +233,7 @@
 }
 
 .footer {
-    background-color: #000000;
+    background: #080808;
 }
 
 .translate-btn {
@@ -295,4 +247,50 @@
     text-decoration: none;
     font-size: 12px;
     transition: 0.3s ease;
+}
+
+@media (max-width: 576px) {
+    .home h1 {
+        font-size: 2.5rem;
+    }
+    
+    .home-image {
+        height: 320px;
+        max-width: 280px;
+    }
+    
+    .about-image {
+        max-width: 300px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 991px) {
+    .home {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .skills {
+        min-height: 100vh;
+        padding: 80px 0 40px;
+    }
+
+    .hobby {
+        padding: 80px 0 40px;
+    }
+
+    .contact {
+        min-height: 100vh;
+        height: auto;
+        padding: 40px 0;
+    }
+
+    .contact-card {
+        padding: 18px !important;
+    }
+
+    .contact textarea {
+        height: 110px;
+    }
 }
